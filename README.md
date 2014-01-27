@@ -10,6 +10,9 @@ Drupal Users Group meeting. To use it just do the following.
 1. cd moddev
 1. vagrant up
 
+After that you should be able to go to http://10.1.0.31 and log in
+using a user name of "admin" and the password "admin".
+
 You might want to take a look at the Vagrantfile to make sure the IP
 (and anything else) don't conflict with your maching. It would also be
 handy to update your hosts file to point the host "moddev" to the IP

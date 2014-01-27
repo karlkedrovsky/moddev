@@ -230,6 +230,12 @@ EOF
 mount -a
 service nfs-kernel-server restart
 
+# Personal configuration
+if [ -e "/vagrant/provision_personal.sh" ]
+then
+  source /vagrant/provision_personal.sh
+fi
+
 ##### Provision check #####
 
 # Create .provision_check for the script to check on during a next vargant up.

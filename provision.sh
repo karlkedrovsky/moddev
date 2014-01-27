@@ -207,12 +207,12 @@ drush en -y devel admin_menu
 drush cc all
 
 mkdir sites/all/modules/custom/kcdug
-cat <<EOF >sites/all/modules/custom/kcdug.info
+cat <<EOF >sites/all/modules/custom/kcdug/kcdug.info
 name = KC Drupal Users Group
 description = Custom module for introduction to module development
 core = 7.x
 EOF
-cat <<EOF >sites/all/modules/custom/kcdug.module
+cat <<EOF >sites/all/modules/custom/kcdug/kcdug.module
 <?php
 EOF
 
